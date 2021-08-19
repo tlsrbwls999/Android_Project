@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tlsrbwls.bts">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BTS">
+        <activity android:name=".Bts7MainActivity2"></activity>
+        <activity android:name=".Bts6MainActivity2" />
+        <activity android:name=".Bts5MainActivity2" />
+        <activity android:name=".Bts4MainActivity" />
+        <activity android:name=".Bts3MainActivity" />
+        <activity android:name=".Bts2MainActivity" />
+        <activity android:name=".Bts1MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
